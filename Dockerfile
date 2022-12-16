@@ -1,5 +1,5 @@
 FROM google/cloud-sdk:412.0.0-slim
-LABEL maintainer "Smart Algorithm Co., Ltd. <contact@smartalgorithm.co.jp>"
+LABEL maintainer "mscno"
 
 RUN apt-get update -y && \
     apt-get install -y kubectl && \
