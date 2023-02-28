@@ -1,4 +1,4 @@
-FROM google/cloud-sdk:412.0.0-slim
+FROM google/cloud-sdk:419.0.0-slim
 LABEL maintainer "mscno"
 
 ENV USE_GKE_GCLOUD_AUTH_PLUGIN=True
